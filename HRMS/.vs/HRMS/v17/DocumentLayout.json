@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\addproject.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\addproject.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\addemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\addemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\ticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\ticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 433,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Addproject.razor",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Addproject.razor",
+              "RelativeDocumentMoniker": "Pages\\Addproject.razor",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Addproject.razor",
+              "RelativeToolTip": "Pages\\Addproject.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T04:07:08.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Addemployee.razor",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Addemployee.razor",
+              "RelativeDocumentMoniker": "Pages\\Addemployee.razor",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Addemployee.razor",
+              "RelativeToolTip": "Pages\\Addemployee.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T04:06:52.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-20T04:05:12.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ticket.razor",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Ticket.razor",
+              "RelativeDocumentMoniker": "Pages\\Ticket.razor",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Ticket.razor",
+              "RelativeToolTip": "Pages\\Ticket.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T05:34:20.715Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
