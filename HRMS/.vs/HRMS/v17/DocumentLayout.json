@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\addproject.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\addproject.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\model\\editsalaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:model\\editsalaries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\generateslip.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\generateslip.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\addemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\addemployee.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\generateslip.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\generateslip.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\ticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\ticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\editsalary.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\editsalary.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\editsalary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\editsalary.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\payroll.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\payroll.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\payroll.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\payroll.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\hrpayroll.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\hrpayroll.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|c:\\users\\nandhakumar\\onedrive\\desktop\\hrms\\hrms\\pages\\hrpayroll.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7005E14-D7CB-44A2-AB4F-011F7BBF36FF}|HRMS.csproj|solutionrelative:pages\\hrpayroll.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +46,128 @@
       "DocumentGroups": [
         {
           "DockedHeight": 433,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Addproject.razor",
-              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Addproject.razor",
-              "RelativeDocumentMoniker": "Pages\\Addproject.razor",
-              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Addproject.razor",
-              "RelativeToolTip": "Pages\\Addproject.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "EditSalaries.cs",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Model\\EditSalaries.cs",
+              "RelativeDocumentMoniker": "Model\\EditSalaries.cs",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Model\\EditSalaries.cs",
+              "RelativeToolTip": "Model\\EditSalaries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:12:44.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Generateslip.razor",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Generateslip.razor",
+              "RelativeDocumentMoniker": "Pages\\Generateslip.razor",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Generateslip.razor",
+              "RelativeToolTip": "Pages\\Generateslip.razor",
+              "ViewState": "AQIAAFoBAAAAAAAAAAAYwGQBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T04:07:08.047Z",
+              "WhenOpened": "2024-06-24T05:12:06.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Addemployee.razor",
-              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Addemployee.razor",
-              "RelativeDocumentMoniker": "Pages\\Addemployee.razor",
-              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Addemployee.razor",
-              "RelativeToolTip": "Pages\\Addemployee.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-20T04:06:52.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\wwwroot\\index.html",
-              "RelativeDocumentMoniker": "wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\wwwroot\\index.html",
-              "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-06-20T04:05:12.691Z"
+              "Title": "Generateslip.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Generateslip.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Generateslip.razor.cs",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Generateslip.razor.cs",
+              "RelativeToolTip": "Pages\\Generateslip.razor.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAuwHEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:11:25.81Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Ticket.razor",
-              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Ticket.razor",
-              "RelativeDocumentMoniker": "Pages\\Ticket.razor",
-              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Ticket.razor",
-              "RelativeToolTip": "Pages\\Ticket.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAM8AAAAbAAAA",
+              "Title": "Editsalary.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Editsalary.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Editsalary.razor.cs",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Editsalary.razor.cs",
+              "RelativeToolTip": "Pages\\Editsalary.razor.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAuwL0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:11:08.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Editsalary.razor",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Editsalary.razor",
+              "RelativeDocumentMoniker": "Pages\\Editsalary.razor",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Editsalary.razor",
+              "RelativeToolTip": "Pages\\Editsalary.razor",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAuwHgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-19T05:34:20.715Z"
+              "WhenOpened": "2024-06-24T05:10:59.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Payroll.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Payroll.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\Payroll.razor.cs",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Payroll.razor.cs",
+              "RelativeToolTip": "Pages\\Payroll.razor.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAuwFEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:10:50.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payroll.razor",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Payroll.razor",
+              "RelativeDocumentMoniker": "Pages\\Payroll.razor",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\Payroll.razor",
+              "RelativeToolTip": "Pages\\Payroll.razor",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAuwIoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T05:10:41.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HrPayroll.razor",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\HrPayroll.razor",
+              "RelativeDocumentMoniker": "Pages\\HrPayroll.razor",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\HrPayroll.razor",
+              "RelativeToolTip": "Pages\\HrPayroll.razor",
+              "ViewState": "AQIAADQAAAAAAAAAAAAuwF0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T05:10:19.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HrPayroll.razor.cs",
+              "DocumentMoniker": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\HrPayroll.razor.cs",
+              "RelativeDocumentMoniker": "Pages\\HrPayroll.razor.cs",
+              "ToolTip": "C:\\Users\\Nandhakumar\\OneDrive\\Desktop\\HRMS\\HRMS\\Pages\\HrPayroll.razor.cs",
+              "RelativeToolTip": "Pages\\HrPayroll.razor.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAuwHoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T05:10:00.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

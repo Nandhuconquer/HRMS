@@ -27,11 +27,11 @@
                         <MudText Class="editempdet">Employee Code<span style="padding:5px;color:red;">*</span></MudText>
                         <MudAutocomplete Margin="Margin.Dense" Variant=Variant.Outlined T="String" @bind-Value="Code"
                                          ResetValueOnEmptyText="@resetValueOnEmptyText"
-                                         CoerceText="@coerceText" CoerceValue="@coerceValue" />
+                                         CoerceText="@coerceText" CoerceValue="@coerceValue" ReadOnly />
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudText Class="editempdet">Select Month<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudDatePicker @bind-Date="date" DateFormat="dd-MM-yyyy" Variant="Variant.Filled" Margin="Margin.Dense" />
+                        <MudDatePicker @bind-Date="date" MinDate=DateTime.Now MaxDate=DateTime.Now DateFormat="dd-MM-yyyy" Variant="Variant.Filled" Margin="Margin.Dense" />
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudText Typo=Typo.h6>Earnings</MudText>
@@ -41,37 +41,37 @@
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudText Class="editempdet">Basic<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudTextField Margin="Margin.Dense" @bind-Value="x.BasicSalary" Placeholder="BasicSalary" Variant="Variant.Outlined" ReadOnly></MudTextField>
+                        <MudNumericField Margin="Margin.Dense" @bind-Value="x.BasicSalary" Placeholder="BasicSalary" Variant="Variant.Outlined" ReadOnly></MudNumericField>
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudText Class="editempdet">ESI<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudTextField Margin="Margin.Dense" @bind-Value="saldetails.ESI" Placeholder="ESI" Variant="Variant.Outlined" Required></MudTextField>
+                        <MudNumericField Margin="Margin.Dense" T=Decimal @bind-Value="saldetails.ESI" Placeholder="ESI" Variant="Variant.Outlined" Min="0" Required HelperText="Give Valid Rupees" For="@(()=>saldetails.ESI)"></MudNumericField>
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudText Class="editempdet">House Rent<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudTextField Margin="Margin.Dense" @bind-Value="saldetails.HouseRent" Placeholder="HouseRent" Variant="Variant.Outlined" Required></MudTextField>
+                        <MudNumericField Margin="Margin.Dense" @bind-Value="saldetails.HouseRent" Placeholder="HouseRent" Variant="Variant.Outlined" HelperText="Give Valid Rupees" Min="0" Required></MudNumericField>
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
-                        <MudText Class="editempdet">Tax<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudTextField Margin="Margin.Dense" Placeholder="Tax Percentage" Variant="Variant.Outlined" @bind-Value="taxPercentage" Required></MudTextField>
+                        <MudText Class="editempdet">Tax%<span style="padding:5px;color:red;">*</span></MudText>
+                        <MudNumericField Margin="Margin.Dense" Placeholder="Tax Percentage" Variant="Variant.Outlined" @bind-Value="taxPercentage" HelperText="Give Valid Rupees" Min="0" Required></MudNumericField>
                         <MudText>RS.@saldetails.Tax /-</MudText>
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudText Class="editempdet">Conveyance<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudTextField Margin="Margin.Dense" @bind-Value="saldetails.Conveyance" Placeholder="Conveyance" Variant="Variant.Outlined" Required></MudTextField>
+                        <MudNumericField Margin="Margin.Dense" @bind-Value="saldetails.Conveyance" Placeholder="Conveyance" Variant="Variant.Outlined" HelperText="Give Valid Rupees" Min="0" Required></MudNumericField>
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
-                        <MudText Class="editempdet">PF<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudTextField Margin="Margin.Dense" Placeholder="PF Percentage" Variant="Variant.Outlined" @bind-Value="pfPercentage" Required></MudTextField>
+                        <MudText Class="editempdet">PF%<span style="padding:5px;color:red;">*</span></MudText>
+                        <MudNumericField T="decimal" Margin="Margin.Dense" Placeholder="PF Percentage" Variant="Variant.Outlined" @bind-Value="pfPercentage" HelperText="Give Valid Rupees" Min="0" Required></MudNumericField>
                         <MudText>RS.@saldetails.PF /-</MudText>
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudText Class="editempdet">Other Allowance<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudTextField Margin="Margin.Dense" @bind-Value="saldetails.OtherAllowance" Placeholder="Other Allowance" Variant="Variant.Outlined" Required></MudTextField>
+                        <MudNumericField Margin="Margin.Dense" @bind-Value="saldetails.OtherAllowance" Placeholder="Other Allowance" Variant="Variant.Outlined" HelperText="Give Valid Rupees" Min="0" Required></MudNumericField>
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudText Class="editempdet">Others<span style="padding:5px;color:red;">*</span></MudText>
-                        <MudTextField Margin="Margin.Dense" @bind-Value="x.Others" Placeholder="Others" Variant="Variant.Outlined" Required></MudTextField>
+                        <MudNumericField Margin="Margin.Dense" @bind-Value="x.Others" Placeholder="Others" Variant="Variant.Outlined" HelperText="Give Valid Rupees" Min="0" Required></MudNumericField>
                     </MudItem>
                     <MudItem lg="6" md="6" sm="6" xs="12">
                         <MudCheckBox @bind-Checked="hasReimbursement" Label="Reimbursement Claim" />
@@ -80,7 +80,7 @@
                     {
                         <MudItem lg="6" md="6" sm="6" xs="12">
                             <MudText Class="editempdet">Reimbursement</MudText>
-                            <MudTextField Margin="Margin.Dense" @bind-Value="x.Reimbursement" Placeholder="Reimbursement" Variant="Variant.Outlined"></MudTextField>
+                            <MudNumericField Margin="Margin.Dense" @bind-Value="x.Reimbursement" Placeholder="Reimbursement" Variant="Variant.Outlined" HelperText="Give Valid Rupees" Min="0"></MudNumericField>
                         </MudItem>
                     }
                     <MudItem lg="6" md="6" sm="6" xs="12">

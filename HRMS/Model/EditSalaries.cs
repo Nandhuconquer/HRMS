@@ -79,23 +79,6 @@
         public DateTime CreatedAt { get; set; }
     }
 
-    public class IndividualPayrollHistory
-    {
-        public int EmpId { get; set; }
-        public string EmployeeCode { get; set; }
-        public string EmployeeName { get; set; }
-        public string Email { get; set; }
-        public string Designation { get; set; }
-        public string BasicSalary { get; set; }
-        public DateTime CreatedAt { get; set; }
 
-
-    }
-
-    public class EmployeeDetails
-    {
-        public int EmpId { get; set; }
-        // Other properties as needed
-    }
 
 }

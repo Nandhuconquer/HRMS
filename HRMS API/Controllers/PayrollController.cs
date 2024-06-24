@@ -27,11 +27,13 @@ namespace HRMS_API.Controllers
     {
         private readonly ILogger<PayrollController> _logger;
         private readonly IConfiguration _configuration;
+        private readonly string appdbconnectionstring;
 
         public PayrollController(ModelContext dbContext, ILogger<PayrollController> logger, IConfiguration configuration)
         {
             _logger = logger;
             _configuration = configuration;
+            appdbconnectionstring = _configuration.GetConnectionString("AppDbConnection");
         }
 
         #region Monthlysalary
@@ -40,7 +42,6 @@ namespace HRMS_API.Controllers
         {
             try
             {
-                var appdbconnectionstring = _configuration.GetConnectionString("AppDbConnection");
                 using (var appconnection = new SqlConnection(appdbconnectionstring))
                 {
                     await appconnection.OpenAsync();
@@ -93,14 +94,14 @@ namespace HRMS_API.Controllers
         {
             try
             {
-                var appDbConnectionString = _configuration.GetConnectionString("AppDbConnection");
-                using (var appConnection = new SqlConnection(appDbConnectionString))
+                using (var appConnection = new SqlConnection(appdbconnectionstring))
                 {
                     await appConnection.OpenAsync();
                     try
                     {
-/*                        decimal adjustedSalary = CalculateAdjustedSalary(todoItem);
-*/                        var sql = @"INSERT INTO DisplaySalaryDetails (EmpId, EmployeeCode,BasicSalary, HouseRent, Conveyance, OtherAllowance, ESI, Tax, PF, Others, Reimbursement, NetSalary, CreatedAt, UpdatedAt) 
+                        /*                        decimal adjustedSalary = CalculateAdjustedSalary(todoItem);
+                        */
+                        var sql = @"INSERT INTO DisplaySalaryDetails (EmpId, EmployeeCode,BasicSalary, HouseRent, Conveyance, OtherAllowance, ESI, Tax, PF, Others, Reimbursement, NetSalary, CreatedAt, UpdatedAt) 
                 VALUES (@EmpId, @EmployeeCode,@BasicSalary, @HouseRent, @Conveyance, @OtherAllowance, @Others, @ESI, @Tax, @PF, @Reimbursement, @NetSalary, @CreatedAt, @UpdatedAt)";
                         using (var insertcmd = new SqlCommand(sql, appConnection))
                         {
@@ -152,7 +153,6 @@ namespace HRMS_API.Controllers
 
             try
             {
-                var appdbconnectionstring = _configuration.GetConnectionString("AppDbConnection");
                 using (var appconnection = new SqlConnection(appdbconnectionstring))
                 {
                     await appconnection.OpenAsync();
@@ -187,7 +187,6 @@ namespace HRMS_API.Controllers
         {
             try
             {
-                var appdbconnectionstring = _configuration.GetConnectionString("AppDbConnection");
                 using (var appconnection = new SqlConnection(appdbconnectionstring))
                 {
                     await appconnection.OpenAsync();
@@ -241,7 +240,6 @@ namespace HRMS_API.Controllers
         {
             try
             {
-                var appdbconnectionstring = _configuration.GetConnectionString("AppDbConnection");
                 using (var appconnection = new SqlConnection(appdbconnectionstring))
                 {
                     await appconnection.OpenAsync();
@@ -295,7 +293,6 @@ namespace HRMS_API.Controllers
         {
             try
             {
-                var appdbconnectionstring = _configuration.GetConnectionString("AppDbConnection");
                 using (var appconnection = new SqlConnection(appdbconnectionstring))
                 {
                     await appconnection.OpenAsync();

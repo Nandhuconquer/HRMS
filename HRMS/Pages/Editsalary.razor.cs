@@ -69,30 +69,6 @@ namespace HRMS.Pages
         }
 
         #endregion
-        /*private async Task<int?> GetEmployeeIdByCode(string code)
-        {
-            try
-            {
-                string apiUrl = $"api/Sample/employeedetails/{code}";
-                using var client = HttpClientFactory.CreateClient("API");
-                var response = await client.GetAsync(apiUrl).ConfigureAwait(false);
-                if (response.IsSuccessStatusCode)
-                {
-                    var employee = await response.Content.ReadFromJsonAsync<MonthSalCalc>();
-                    return employee.ID;
-                }
-                else
-                {
-                    Console.WriteLine("Failed to fetch employee details.");
-                    return null;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error fetching data: {ex.Message}");
-                return null;
-            }
-        }*/
 
         #region MonthlySalaryCalculation
         private void ProcessMonthSalCalc()
@@ -144,7 +120,7 @@ namespace HRMS.Pages
                     Tax = 0,
                     PF = 0,*/
                     Others = others,
-                    Reimbursement =  item.Reimbursement ,
+                    Reimbursement = item.Reimbursement,
                     NetSalary = basicSalary + item.Reimbursement - (0),
                     CreatedAt = DateTime.Now,
                     UpdatedAt = DateTime.Now
@@ -155,7 +131,7 @@ namespace HRMS.Pages
         }
         #endregion
 
-        #region CalculateNetsalary
+        #region CalDculateNetsalary
         private async void CalculateNetSalary()
         {
             var item = finalsal.FirstOrDefault();
@@ -164,11 +140,10 @@ namespace HRMS.Pages
             decimal reimbursementValue = hasReimbursement ? item.Reimbursement : 0;
             decimal taxValue = item.BasicSalary * (taxPercentage / 100);
             decimal pfValue = item.BasicSalary * (pfPercentage / 100);
-
             item.NetSalary = item.BasicSalary + item.HouseRent + item.Conveyance + item.OtherAllowance - (item.ESI + taxValue + pfValue + item.Others) + reimbursementValue;
-
             await ToSaveData();
             await updateAccountDetailsData(Code, saldetails);
+            NavigationManager.NavigateTo("/hrpayroll");
             StateHasChanged();
         }
 
@@ -188,13 +163,13 @@ namespace HRMS.Pages
                     saldetails.Others = x.Others;
                     saldetails.BasicSalary = x.BasicSalary;
                     saldetails.EmployeeCode = x.EmployeeCode;
-                    saldetails.NetSalary=x.NetSalary;
+                    saldetails.NetSalary = x.NetSalary;
                     string apiUrl = "api/Payroll";
                     using var client = HttpClientFactory.CreateClient("API");
                     var response = await client.PostAsJsonAsync(apiUrl, saldetails).ConfigureAwait(false);
                     if (response.IsSuccessStatusCode)
                     {
-                        Snackbar.Add("Saved Successfully");
+                        Snackbar.Add("Updated and Saved Successfully");
                     }
                     else
                     {
@@ -224,7 +199,7 @@ namespace HRMS.Pages
                 var response = await client.PutAsJsonAsync(apiUrl, accountDetails).ConfigureAwait(false);
                 if (response.IsSuccessStatusCode)
                 {
-                    Snackbar.Add("Updated Successfully");
+
                 }
                 else
                 {

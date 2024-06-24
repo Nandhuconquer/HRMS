@@ -93,22 +93,3 @@
     }
 
 }
-
-
-
-/*"id": ,
-  "empId": 7,
-  "employeeCode": "BYT007",
-  "basicSalary": 45000,
-  "houseRent": 9000,
-  "conveyance": 1500,
-  "otherAllowance": 4000,
-  "esi": 1300,
-  "tax": 5,
-  "pf": 5,
-  "others": 800,
-  "hasReimbursement": true,
-  "reimbursement": 1500,
-  "netSalary": 0,
-  "createdAt": "2024-05-29T08:25:25.978Z",
-  "updatedAt": "2024-05-29T08:25:25.978Z"*/

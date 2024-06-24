@@ -22,7 +22,7 @@
             <MudText Typo="Typo.h6">Employee Salary</MudText>
             <MudSpacer></MudSpacer>
             <MudItem Class="d-flex">
-                <MudTooltip Text="Search Any Data from the Table">
+                <MudTooltip Text="Search by Date of Join">
                     <MudIcon Icon="@Icons.Material.Outlined.Info" Size="@MudBlazor.Size.Medium" Class="mt-3 mr-1" />
                 </MudTooltip>
                 <MudTextField Style="width:100%" Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_searchStrings" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"
@@ -30,8 +30,8 @@
             </MudItem>
         </ToolBarContent>
         <Columns>
-            <PropertyColumn Property="x => x.EmployeeCode" Title="EmployeeCode" Sortable="false" Filterable="false"></PropertyColumn>
-            <PropertyColumn Property="x => x.EmployeeName" Title="EmployeeName" Sortable="false" Filterable="false" />
+            <PropertyColumn Property="x => x.EmployeeCode" Title="Employee Code" Sortable="false" Filterable="false"></PropertyColumn>
+            <PropertyColumn Property="x => x.EmployeeName" Title="Employee Name" Sortable="false" Filterable="false" />
             <PropertyColumn Property="x => x.Email" Title="Email" Sortable="false" Filterable="false" />
             <PropertyColumn Property="x => x.Designation" Title="Designation" Sortable="false" Filterable="false" />
             <PropertyColumn Property="x => x.BasicSalary" Title="Salary" Sortable="false" Filterable="false" />

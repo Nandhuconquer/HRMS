@@ -73,7 +73,7 @@ namespace HRMS.Pages
             {
                 Console.WriteLine($"Error fetching data: {ex.Message}");
             }
-            return createdDates; 
+            return createdDates;
         }
         #endregion
 

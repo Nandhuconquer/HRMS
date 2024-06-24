@@ -12,7 +12,6 @@
         <MudButton Variant="Variant.Outlined" Class="buttonstyle mr-2" @onclick="GoBack"><i class="fa-solid fa-chevron-left"></i></MudButton>
     </MudText>
 </MudContainer>
-
 <MudContainer>
     <MudDataGrid Class="mt-5" Dense=true T="HRMS.Model.AllEmployeeDetails" Items="@allemployeedetails" Hover="true" Filterable="false" QuickFilter="@_quickFilter" Bordered=true Striped=true
                  Hideable="false">
@@ -21,7 +20,7 @@
             <MudText Typo="Typo.h6">Employee List</MudText>
             <MudSpacer></MudSpacer>
             <MudItem Class="d-flex">
-                <MudTooltip Text="Search Any Data from the Table">
+                <MudTooltip Text="Search by Employee Code, Employee Name and Designation">
                     <MudIcon Icon="@Icons.Material.Outlined.Info" Size="@MudBlazor.Size.Medium" Class="mt-3 mr-1" />
                 </MudTooltip>
                 <MudTextField Style="width:100%" Margin="Margin.Dense" Variant="Variant.Outlined" @bind-Value="_searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="true"

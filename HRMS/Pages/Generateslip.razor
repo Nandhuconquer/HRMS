@@ -9,16 +9,16 @@
 <MudContainer MaxWidth="MaxWidth.Medium">
     <MudGrid Class="mt-7">
         <MudItem lg="9" md="9" sm="9" xs="9">
-            <MudText  Class="payslip">Payslip</MudText>
+            <MudText Class="payslip">Payslip</MudText>
         </MudItem>
         <MudItem Style="justify-content: end; display: flex;" lg="3" md="3" sm="3" xs="3">
             <MudButton Variant="Variant.Outlined" Class="buttonstyle mr-2" @onclick="GoBack"><i class="fa-solid fa-chevron-left"></i></MudButton>
         </MudItem>
     </MudGrid>
-   
+
     <MudPaper Class="mb-5 p-2 mt-5 pb-16 payslip-container">
         <MudContainer>
-            <MudGrid Class="mt-4">
+            <MudGrid Class="mt-4 mb-4" lg="6" md="6" sm="12" xs="12">
                 <MudItem lg="10" md="10" sm="10" xs="7">
                     <MudText Typo=Typo.h4>Bytes Technologies</MudText>
                     <MudText Typo=Typo.caption>Tex Park Road, Nehru Nagar West, Coimbatore, Tamil Nadu 641014</MudText>
@@ -41,25 +41,25 @@
                                 <MudInputLabel Class="empinput">Employee Name:</MudInputLabel>
                             </MudItem>
                             <MudItem lg="7" md="7" sm="7" xs="7">
-                                <MudText>@x.EmployeeName</MudText>
+                                <MudText Class="Values">@x.EmployeeName</MudText>
                             </MudItem>
                             <MudItem lg="5" md="5" sm="5" xs="5">
                                 <MudInputLabel Class="empinput">Designation:</MudInputLabel>
                             </MudItem>
                             <MudItem lg="7" md="7" sm="7" xs="7">
-                                <MudText>@x.Designation</MudText>
+                                <MudText Class="Values">@x.Designation</MudText>
                             </MudItem>
                             <MudItem lg="5" md="5" sm="5" xs="5">
                                 <MudInputLabel Class="empinput">PF A/C Number:</MudInputLabel>
                             </MudItem>
                             <MudItem lg="7" md="7" sm="7" xs="7">
-                                <MudText>@x.PFAccount</MudText>
+                                <MudText Class="Values">@x.PFAccount</MudText>
                             </MudItem>
                             <MudItem lg="5" md="5" sm="5" xs="5">
                                 <MudInputLabel Class="empinput">Bank Account No:</MudInputLabel>
                             </MudItem>
                             <MudItem lg="7" md="7" sm="7" xs="7">
-                                <MudText>@x.AccountNumber</MudText>
+                                <MudText Class="Values">@x.AccountNumber</MudText>
                             </MudItem>
                         </MudGrid>
                     }
@@ -72,19 +72,19 @@
                                 <MudInputLabel Class="empinput">Employee Id:</MudInputLabel>
                             </MudItem>
                             <MudItem lg="7" md="7" sm="7" xs="7">
-                                <MudText>@x.EmployeeCode</MudText>
+                                <MudText Class="Values">@x.EmployeeCode</MudText>
                             </MudItem>
                             <MudItem lg="5" md="5" sm="5" xs="5">
                                 <MudInputLabel Class="empinput">Bank Name:</MudInputLabel>
                             </MudItem>
                             <MudItem lg="7" md="7" sm="7" xs="7">
-                                <MudText>@x.BankName</MudText>
+                                <MudText Class="Values">@x.BankName</MudText>
                             </MudItem>
                             <MudItem lg="5" md="5" sm="5" xs="5">
                                 <MudInputLabel Class="empinput">Date of Joining:</MudInputLabel>
                             </MudItem>
                             <MudItem lg="7" md="7" sm="7" xs="7">
-                                <MudText>@x.DateOfJoining.ToString("dd-MM-yyyy")</MudText>
+                                <MudText Class="Values">@x.DateOfJoining.ToString("dd-MM-yyyy")</MudText>
                             </MudItem>
                         </MudGrid>
                     }
@@ -110,37 +110,37 @@
                                 <MudText Class="empinput">Basic</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@x.BasicSalary</MudText>
+                                <MudText Class="Values">@x.BasicSalary</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@(x.BasicSalary * 12)</MudText>
+                                <MudText Class="Values">@(x.BasicSalary * 12)</MudText>
                             </MudItem>
                             <MudItem lg="6" md="6" sm="6" xs="6">
                                 <MudText Class="empinput">House Rent</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@x.HouseRent</MudText>
+                                <MudText Class="Values">@x.HouseRent</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@(x.HouseRent * 12)</MudText>
+                                <MudText Class="Values">@(x.HouseRent * 12)</MudText>
                             </MudItem>
                             <MudItem lg="6" md="6" sm="6" xs="6">
                                 <MudText Class="empinput">Conveyance</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@x.Conveyance</MudText>
+                                <MudText Class="Values">@x.Conveyance</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@(x.Conveyance * 12)</MudText>
+                                <MudText Class="Values">@(x.Conveyance * 12)</MudText>
                             </MudItem>
                             <MudItem lg="6" md="6" sm="6" xs="6">
                                 <MudText Class="empinput">Other Allowance</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@x.OtherAllowance</MudText>
+                                <MudText Class="Values">@x.OtherAllowance</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@(x.OtherAllowance * 12)</MudText>
+                                <MudText Class="Values">@(x.OtherAllowance * 12)</MudText>
                             </MudItem>
 
                         </MudGrid>
@@ -164,38 +164,37 @@
                                 <MudText Class="empinput">ESI</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@x.ESI</MudText>
+                                <MudText Class="Values">@x.ESI</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@(x.ESI * 12)</MudText>
+                                <MudText Class="Values">@(x.ESI * 12)</MudText>
                             </MudItem>
                             <MudItem lg="6" md="6" sm="6" xs="6">
                                 <MudText Class="empinput">Tax</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@x.Tax</MudText>
+                                <MudText Class="Values">@x.Tax</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@(x.Tax * 12)</MudText>
+                                <MudText Class="Values">@(x.Tax * 12)</MudText>
                             </MudItem>
                             <MudItem lg="6" md="6" sm="6" xs="6">
                                 <MudText Class="empinput">PF</MudText>
                             </MudItem>
-                            @* check here *@
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@x.PF</MudText>
+                                <MudText Class="Values">@x.PF</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@(x.PF * 12)</MudText>
+                                <MudText Class="Values">@(x.PF * 12)</MudText>
                             </MudItem>
                             <MudItem lg="6" md="6" sm="6" xs="6">
                                 <MudText Class="empinput">Others</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@x.Others</MudText>
+                                <MudText Class="Values">@x.Others</MudText>
                             </MudItem>
                             <MudItem lg="3" md="3" sm="3" xs="3">
-                                <MudText>@(x.Others * 12)</MudText>
+                                <MudText Class="Values">@(x.Others * 12)</MudText>
                             </MudItem>
                         </MudGrid>
                     }
@@ -235,30 +234,30 @@
             <MudGrid Class="mt-4">
                 @foreach (var x in payslipdetails)
                 {
-                    <MudItem Class="salaryheading" lg="9" md="9" sm="9" xs="9">
+                    <MudItem Class="salaryheading" lg="8" md="8" sm="8" xs="8">
                         <MudText Class="heading">Reimbursement</MudText>
                     </MudItem>
-                    <MudItem Class="salaryheading" lg="3" md="3" sm="3" xs="3">
+                    <MudItem Class="salaryheading" lg="4" md="4" sm="4" xs="4">
                         <MudText Class="heading">Amount</MudText>
                     </MudItem>
-                    
-                    <MudItem lg="9" md="9" sm="9" xs="9">
+
+                    <MudItem lg="8" md="8" sm="8" xs="8">
                         <MudText Class="empinput">Reimbursement</MudText>
                     </MudItem>
-                    <MudItem lg="3" md="3" sm="3" xs="3">
-                        <MudText>@x.Reimbursement</MudText>
+                    <MudItem lg="4" md="4" sm="4" xs="4">
+                        <MudText Class="Values">@x.Reimbursement</MudText>
                     </MudItem>
-                   
+
                 }
             </MudGrid>
             <MudDivider Class="divider mt-4"></MudDivider>
             @foreach (var x in payslipdetails)
             {
                 <MudGrid Class="mt-2">
-                    <MudItem lg="9" md="9" sm="9" xs="9">
+                    <MudItem lg="8" md="8" sm="8" xs="8">
                         <MudText Class="empinput">Total Reimbursement</MudText>
                     </MudItem>
-                    <MudItem lg="3" md="3" sm="3" xs="3">
+                    <MudItem lg="4" md="4" sm="4" xs="4">
                         <MudText Class="empinput">@x.Reimbursement</MudText>
                     </MudItem>
                 </MudGrid>
@@ -277,14 +276,15 @@
 
             @* print *@
 
-            <MudGrid>
-                <MudItem Class="download" lg="12" md="12" xs="12" sm="12">
-                    <MudButton OnClick="DownloadPDF" Class="print">Print</MudButton>
-                </MudItem>
-            </MudGrid>
+
 
         </MudContainer>
     </MudPaper>
+    <MudGrid>
+        <MudItem Class="download" lg="12" md="12" xs="12" sm="12">
+            <MudButton OnClick="DownloadPDF" Class="print">Print</MudButton>
+        </MudItem>
+    </MudGrid>
 </MudContainer>
 
 @code {
@@ -358,5 +358,33 @@
     .print {
         background-color: #4B0082;
         color: white;
+    }
+
+    @@media screen and (max-width: 768px) {
+        .empinput {
+            font-size: 15px;
+        }
+
+        .Values {
+            font-size: 10px;
+        }
+
+        .heading {
+            font-size: 15px;
+        }
+    }
+
+    @@media screen and (max-width: 400px) {
+        .empinput {
+            font-size: 10px;
+        }
+
+        .Values {
+            font-size: 8px;
+        }
+
+        .heading {
+            font-size: 12px;
+        }
     }
 </style>
